@@ -1,0 +1,190 @@
+@font-face{
+  src: url(fonts/kandinsky.ttf);
+  font-family: kandinsky
+}
+
+@font-face{
+  src: url(fonts/Futura.ttc);
+  font-family: futura
+}
+
+html, body{
+    margin: 0; /* Stripping out margin and padding so .background can be full width*/
+    padding: 0;
+    width: 100%;  /*Setting parent width -- child width is relative*/
+    height: 100%; /*Setting parent height -- child height is relative*/
+  }
+
+  .background {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: transparent url(images/background.png) no-repeat center center;
+    background-size: cover;
+
+  }
+
+  .stairs {
+    box-sizing: border-box; /*Not necessary in this situation*/
+    display: block; /*Not necessary, but we do want it this way*/
+    width: 100%;
+    height: 100%; /* Now 100% height will work */
+    padding: 0; /* No padding */
+    margin: 0; /* No margins */
+    background: transparent url(images/stairs.png) no-repeat center center;
+    /* Shorthand: image, repeat, X align, Y align. */
+    background-size: cover; /* Cover all available space*/
+    position: relative;
+  }
+
+  .strings {
+    position: absolute;
+    height: 90%;
+    width: 45%;
+    left: 100px;
+  }
+
+  .titulo {
+    position: absolute;
+    top: 100px;
+    right: 230px;
+  }
+
+  .aleks {
+    font-size: 65px;
+    line-height: 62px;
+    font-family: futura;
+    color: #DBD2C3;
+    text-shadow: 1px 1px 1px #000000;
+  }
+
+  .scriabin {
+    font-size: 100px;
+    line-height: 62px;
+    font-family: futura;
+    color: #A64E46;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .fecha {
+    position: relative;
+    right: -200;
+  font-family: futura;
+    font-size: 20px;
+    color: #DBD2C3;
+    margin-left: 363px;
+  }
+
+  .aquotes {
+    font-family: futura;
+    color: #DBD2C3;
+  }
+
+
+  .postcard {
+  display: block;
+  width: 12%;
+  transform: scaleX(-1);
+  position: absolute;
+  top: 420px;
+  right: 220px;
+  }
+
+.stair1 {
+  background: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 81.4%;
+  height: 8.7%;
+  width: 44.9%;
+  left: 102px;
+}
+
+.stair2 {
+  background: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  bottom: 23.0%;
+  height: 9.2%;
+  width: 39.2%;
+  left: 141px;
+}
+
+.stair3 {
+  background: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  bottom: 37%;
+  height: 7%;
+  width: 33.3%;
+  left: 189px;
+}
+
+.stair4 {
+  background: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  bottom: 48.5%;
+  height: 5.2%;
+  width: 28%;
+  left: 232px;
+}
+
+.string1 {
+  position: absolute;
+  top: 0%;
+  bottom: 40%;
+  height: 89.3%;
+    width: 45%;
+    left: 100px;
+}
+
+.string2 {
+  position: absolute;
+  top: 0%;
+  bottom: 40%;
+  height: 77%;
+    width: 40%;
+    left: 130px;
+}
+
+.string3 {
+  position: absolute;
+  top: 0%;
+  bottom: 30%;
+  height: 63%;
+    width: 34%;
+    left: 180px;
+}
+
+.string4 {
+  position: absolute;
+  top: 0%;
+  bottom: 28%;
+  height: 52%;
+  width: 28.5%;
+  left: 230px;
+}
+
+.circle {
+  display: block;
+  position: absolute;
+  top: 7%;
+  left: 21%;
+  z-index: 5;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  outline:none;
+  border-radius: 50px 20px;
+}
+
