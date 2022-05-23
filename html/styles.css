@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text|Lalezar');
+
+:root{
+  --padding: 21px;
+  --bg-color: #151515;
+  --text-color: #FFFFFF;
+  --accent-color: #003153;
+  --font-family: 'Noticia Text';
+  --font-display: 'Lalezar';
+}
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  max-width: 640px;
+  margin: 0 auto;
+  padding: var(--padding);
+  color: var(--text-color);
+  background: var(--bg-color);
+  font-family: var(--font-family);
+  line-height: 2;
+  font-size: 21px;
+}
+
+h1{
+    font-size: 280%;
+    transform: translateX(-5px);
+    font-family: var(--font-display);
+    margin-bottom: 0;
+  }
+
+h2{
+  font-size: 180%;
+  transform: translateX(-5px);
+  font-family: var(--font-display);
+  margin-bottom: 0;
+}
+
+a{
+  color: var(--text-color);
+}
+
+p{
+  margin-bottom: 2em;
+}
+
+strong{
+  display: inline-block;
+  transform: translateX(-5px);
+  font-size: 130%;
+  line-height: 1;
+  font-family: var(--font-display);
+}
+
+strong:before{
+  content: '🎨';
+  margin-right: 5px;
+  margin-top: 34px;
+  display: inline-block;
+}
+
+h2:after{
+  content: '';
+  display: block;
+  height: 8px;
+  background: var(--accent-color);
+  max-width: 55px;
+  transform: skewX(-21deg) translateY(-13px);
+  border-radius: 3px;
+}
+
+h1:after{
+    content: '';
+    display: block;
+    height: 8px;
+    background: var(--accent-color);
+    max-width: 55px;
+    transform: skewX(-21deg) translateY(-13px);
+    border-radius: 3px;
+  }
+
+  .title {
+      color: #FFFFFF;
+  }

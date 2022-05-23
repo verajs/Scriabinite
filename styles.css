@@ -86,7 +86,7 @@ html, body{
 
   .postcard {
   display: block;
-  width: 12%;
+  width: 150px;
   transform: scaleX(-1);
   position: absolute;
   top: 420px;
@@ -144,6 +144,7 @@ html, body{
   height: 89.3%;
     width: 45%;
     left: 100px;
+
 }
 
 .string2 {
@@ -188,3 +189,265 @@ html, body{
   border-radius: 50px 20px;
 }
 
+@media (max-width: 1449px) {
+
+
+
+  .aleks {
+    color: #FFFFFF;
+  }
+
+  .scriabin {
+    color: #A64E46;
+  }
+
+  .titulo {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+  }
+  .postcard {
+    display: block;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 360px;
+    right: 50px;
+    }
+}
+
+
+@media (min-width: 612px) and (max-width: 1187px) {
+  .scriabin {
+    font-size: 80px;
+    line-height: 1;
+    margin: 0;
+    color: #A64E46;
+  }
+
+    .fecha {
+    position: absolute !important;
+    right: auto;
+    left: 22.5px;
+
+  font-family: futura;
+    font-size: 20px;
+    color: #DBD2C3;
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .fecha {
+    position: absolute !important;
+    right: auto;
+    left: 22.5px;
+
+  font-family: futura;
+    font-size: 20px;
+    color: #DBD2C3;
+    margin-left: 0px;
+  }
+  .scriabin {
+    font-size: 15vw;
+    line-height: 1;
+    margin: 0;
+    color: #A64E46;
+  }
+}
+
+@media (max-width: 1188px) {
+  .aquotes {
+    font-family: futura;
+    color: #DBD2C3;
+    display: none;
+  }
+  .aleks {
+   color: #FFFFFF;
+  }
+
+  .scriabin {
+    line-height: 1;
+    margin: 0;
+    color: #A64E46;
+  }
+
+/* AQUIIIIIIII */
+
+
+  .titulo {
+
+      position: absolute;
+      top: 20px;
+      right: auto;
+      left: 7vw;
+      position: absolute;
+      height: px;
+      width: 200px;
+      padding: 40px;
+      max-width: 100%;
+      display: block;
+  margin: 0 auto;
+
+  padding: 0 20px;
+
+  /* Center horizontally*/
+  margin: 0 auto;
+
+  }
+  .postcard {
+    display: none;
+    }
+
+    .stairs {
+      margin-top: -96px;
+      padding-right: 88px;
+      padding-top: 88px;
+      padding-bottom: 88px;
+      max-width: 736px;
+      padding-left: 0px;
+
+      position: absolute;
+      right: 0;
+      display: block;
+    }
+
+
+    .stair1 {
+      position: absolute;
+      height: px;
+      width: 608px;
+      padding: 40px;
+      max-width: 100%;
+      display: block;
+  margin: 0 auto;
+
+  padding: 0 20px;
+      left: 0px;
+  /* Center horizontally*/
+  margin: 0 auto;
+    }
+
+    .stair2 {
+      position: absolute;
+      height: px;
+      width: 608px;
+      padding: 40px;
+      max-width: 100%;
+      display: block;
+  margin: 0 auto;
+
+  padding: 0 20px;
+      left: 0px;
+  /* Center horizontally*/
+  margin: 0 auto;
+    }
+
+    .stair3 {
+      position: absolute;
+      height: px;
+      width: 608px;
+      padding: 40px;
+      max-width: 100%;
+      display: block;
+  margin: 0 auto;
+
+  padding: 0 20px;
+      left: 0px;
+  /* Center horizontally*/
+  margin: 0 auto;
+    }
+
+    .stair4 {
+      position: absolute;
+      height: px;
+      width: 608px;
+      padding: 40px;
+      max-width: 100%;
+      display: block;
+  margin: 0 auto;
+
+  padding: 0 20px;
+      left: 0px;
+  /* Center horizontally*/
+  margin: 0 auto;
+    }
+
+    .strings {
+
+
+
+      position: absolute !important;
+
+      left: 0px !important;
+      display: block !important;
+    }
+
+    .string1 {
+
+      position: absolute;
+      height: px;
+      width: 600px;
+      padding: 40px;
+      max-width: 100%;
+      display: block;
+  margin: 0 auto;
+
+  padding: 0 20px;
+      left: 0px;
+  /* Center horizontally*/
+  margin: 0 auto;
+    }
+
+    .string2 {
+      display: none;
+      position: absolute;
+      height: px;
+      width: 600px;
+      padding: 40px;
+      max-width: 100%;
+      display: block;
+  margin: 0 auto;
+
+  padding: 0 20px;
+      left: 0px;
+  /* Center horizontally*/
+  margin: 0 auto;
+    }
+
+    .string3 {
+
+      position: absolute;
+      height: px;
+      width: 605px;
+      padding: 40px;
+      max-width: 100%;
+      display: block;
+  margin: 0 auto;
+
+  padding: 0 20px;
+      left: 0px;
+
+  margin: 0 auto;
+    }
+
+    .string4 {
+
+      position: absolute;
+      height: px;
+      width: 608px;
+      padding: 40px;
+      max-width: 100%;
+      display: block;
+  margin: 0 auto;
+
+  padding: 0 20px;
+      left: 0px;
+
+  margin: 0 auto;
+    }
+
+    .circle {
+      display: none;
+    }
+
+}
